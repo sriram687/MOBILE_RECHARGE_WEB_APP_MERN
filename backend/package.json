@@ -7,12 +7,16 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "node app.js",
+    "start": "node init && node app.js",
+    "dev": "node init && node app.js",
     "seed": "node src/utils/seedPlans.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mobile", "recharge", "api"],
+  "keywords": [
+    "mobile",
+    "recharge",
+    "api"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
